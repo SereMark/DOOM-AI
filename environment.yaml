@@ -1,0 +1,39 @@
+name: DOOM_AI
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pytorch
+  - torchvision
+  - numpy
+  - matplotlib
+  - jupyter
+  - ipykernel
+  - ipython
+  - ipywidgets
+  - jupyterlab
+  - nbconvert
+  - notebook
+  - blas
+  - cloudpickle
+  - einops
+  - networkx
+  - packaging
+  - pillow
+  - portpicker
+  - pyyaml
+  - pandas
+  - requests
+  - jpeg
+  - pip
+  - pip:
+    - vizdoom
+    - farama-notifications
+    - gym
+    - gymnasium
+    - onnx
+    - onnx2pytorch
+    - pygame
+    - sympy
